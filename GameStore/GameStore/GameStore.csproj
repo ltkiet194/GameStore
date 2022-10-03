@@ -133,7 +133,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\BlogArticleController.cs" />
+    <Compile Include="Controllers\BlogListController.cs" />
     <Compile Include="Controllers\ChiTietController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\TrangChuController.cs" />
@@ -456,7 +456,7 @@
     <Content Include="Views\TrangChu\PartialSearch.cshtml" />
     <Content Include="Views\ChiTiet\Index.cshtml" />
     <Content Include="Views\Gallery\Gallery.cshtml" />
-    <Content Include="Views\BlogArticle\BlogArticle.cshtml" />
+    <Content Include="Views\BlogList\BlogList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

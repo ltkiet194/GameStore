@@ -11,6 +11,7 @@ namespace GameStore.Controllers
         // GET: BlogArticle
         public ActionResult BlogList()
         {
+            ViewBag.TrangChu =1;
             return View();
         }
     }
