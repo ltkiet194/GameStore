@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace GameStore.Controllers
 {
-    public class ChiTietController : Controller
+    public class ForumController : Controller
     {
-        // GET: ChiTiet
-        public ActionResult Index()
+        // GET: Forum
+        public ActionResult Forum()
         {
             ViewBag.TrangChu = 1;
             return View();

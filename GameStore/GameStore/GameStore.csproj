@@ -134,8 +134,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BlogListController.cs" />
-    <Compile Include="Controllers\ChiTietController.cs" />
+    <Compile Include="Controllers\ForumController.cs" />
+    <Compile Include="Controllers\ForumSingleTopicsController.cs" />
+    <Compile Include="Controllers\ForumTopicsController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\StoreController.cs" />
+    <Compile Include="Controllers\StoreProductController.cs" />
     <Compile Include="Controllers\TrangChuController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -454,9 +459,19 @@
     <Content Include="Views\TrangChu\PartialLatestNews.cshtml" />
     <Content Include="Views\TrangChu\PartialFooter.cshtml" />
     <Content Include="Views\TrangChu\PartialSearch.cshtml" />
-    <Content Include="Views\ChiTiet\Index.cshtml" />
     <Content Include="Views\Gallery\Gallery.cshtml" />
     <Content Include="Views\BlogList\BlogList.cshtml" />
+    <Content Include="Views\News\News.cshtml" />
+    <Content Include="Views\Shared\_LayoutUserFullWidth.cshtml" />
+    <Content Include="Views\Forum\Forum.cshtml" />
+    <Content Include="Views\ForumTopics\ForumTopics.cshtml" />
+    <Content Include="Views\ForumSingleTopics\ForumSingleTopics.cshtml" />
+    <Content Include="Views\Shared\_LayoutStore.cshtml" />
+    <Content Include="Views\Store\Store.cshtml" />
+    <Content Include="Views\Shared\_LayoutStore2Side.cshtml" />
+    <Content Include="Views\StoreProduct\StoreProduct.cshtml" />
+    <Content Include="Views\StoreProduct\PartialCategory.cshtml" />
+    <Content Include="Views\StoreProduct\PartialPriceFilter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
