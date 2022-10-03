@@ -40,18 +40,17 @@
             </div>
         }
         <div class="nk-gap-1"></div>
-        @if (ViewBag.TrangChu == 0)
-        {
+        <div class="container">
+            @if (ViewBag.Store == 0)
+            {
+                @Html.Action("PartialGameEnviroment", "StoreProduct")
+            }
+        </div>
             <div class="container">
-                @Html.Action("PartialSlider", "TrangChu")
-                @Html.Action("PartialLatestNews", "TrangChu")
+                @RenderBody()
             </div>
-        }
-    <div class="container">
-        @RenderBody()
-    </div>
-        <div class="nk-gap-4"></div>
-    </div>
+            <div class="nk-gap-4"></div>
+        </div>
     @Html.Action("PartialFooter", "TrangChu")
     <img class="nk-page-background-top" src="~/Theme/images/bg-top.png" alt="">
     <img class="nk-page-background-bottom" src="~/Theme/images/bg-bottom.png" alt="">

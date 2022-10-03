@@ -40,13 +40,16 @@
             </div>
         }
         <div class="nk-gap-1"></div>
-        @if (ViewBag.TrangChu == 0)
-        {
-            <div class="container">
+  
+        <div class="container">
+            @if (ViewBag.GameStore == 0)
+            {
                 @Html.Action("PartialSlider", "TrangChu")
-                @Html.Action("PartialLatestNews", "TrangChu")
-            </div>
-        }
+            }
+
+            @Html.Action("PartialGameEnviroment", "StorePrduct")
+        </div>
+     
         <div class="container">
             <div class="row vertical-gap">
                 <div class="col-lg-8">

@@ -12,6 +12,7 @@ namespace GameStore.Controllers
         public ActionResult Store()
         {
             ViewBag.TrangChu = 1;
+            ViewBag.Store = 0;
             return View();
         }
     }

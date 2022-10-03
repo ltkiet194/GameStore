@@ -22,5 +22,10 @@ namespace GameStore.Controllers
         {
             return PartialView();
         }
+        public ActionResult PartialGameEnviroment()
+        {
+            // PC or PS or Xbox..
+            return PartialView();
+        }
     }
 }
