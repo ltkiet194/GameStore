@@ -51,5 +51,9 @@ namespace GameStore.Controllers
         {
             return PartialView();
         }
+        public ActionResult PartialPcPsXbox()
+        {
+            return PartialView();
+        }
     }
 }

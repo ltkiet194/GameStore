@@ -12,6 +12,7 @@ namespace GameStore.Controllers
         public ActionResult StoreProduct()
         {
             ViewBag.TrangChu = 1;
+            ViewBag.StoreProduct = 1;
             return View();
         }
         public ActionResult PartialCategory()

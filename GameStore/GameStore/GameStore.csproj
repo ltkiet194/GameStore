@@ -134,11 +134,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BlogListController.cs" />
+    <Compile Include="Controllers\CatalogController.cs" />
     <Compile Include="Controllers\ForumController.cs" />
     <Compile Include="Controllers\ForumSingleTopicsController.cs" />
     <Compile Include="Controllers\ForumTopicsController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\StoreCartController.cs" />
+    <Compile Include="Controllers\StoreCheckoutController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Controllers\StoreProductController.cs" />
     <Compile Include="Controllers\TrangChuController.cs" />
@@ -473,6 +476,10 @@
     <Content Include="Views\StoreProduct\PartialCategory.cshtml" />
     <Content Include="Views\StoreProduct\PartialPriceFilter.cshtml" />
     <Content Include="Views\StoreProduct\PartialGameEnviroment.cshtml" />
+    <Content Include="Views\TrangChu\PartialPcPsXbox.cshtml" />
+    <Content Include="Views\StoreCart\StoreCart.cshtml" />
+    <Content Include="Views\StoreCheckout\StoreCheckout.cshtml" />
+    <Content Include="Views\Catalog\Catalog.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
